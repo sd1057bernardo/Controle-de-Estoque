@@ -36,8 +36,6 @@ function pages(e){
             for(button of botoes){
                 if(botoes[i] !== botoes[4]){
                     container.innerHTML+=`<button onclick='pages("${botoes[i]}")'>${botoes[i]}</button>`;
-                    var btn = document.querySelectorAll("button");
-                    btn[i].value=botoes[i];
                     i++;
                 }
             }
