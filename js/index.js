@@ -42,4 +42,7 @@ function pages(e){
         break;
     }
 }
+function eventos(){
+    
+}
 pages();
