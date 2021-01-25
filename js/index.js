@@ -44,3 +44,4 @@ function pages(e){
         break;
     }
 }
+pages();
