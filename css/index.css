@@ -1,3 +1,17 @@
+@media (max-width: 600px){
+    body{
+        display:flex;
+        flex-direction:column;
+    }
+    #container{
+        flex:1;
+        display:flex;
+        flex-direction:column;
+    }
+    #container :nth-child(1n){
+        margin:5px 0px 5px 0px;
+    }
+}
 body{
     margin:0px;
     width:100%;
