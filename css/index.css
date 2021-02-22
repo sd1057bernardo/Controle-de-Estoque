@@ -29,3 +29,6 @@ body #lastupdates, body #container{
     border:1px solid #333;
     background-color:antiquewhite;
 }
+body #container button{
+    margin:0px 5px;
+}
